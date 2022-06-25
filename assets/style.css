@@ -1,0 +1,249 @@
+* {
+    font-family: poppins;
+    font-weight: 100;
+}
+
+/*----about----*/
+
+.container {
+    width: 100%;
+    height: 450px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 55%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.circular {
+    border-radius: 50%;
+    height: 300px;
+}
+
+.aboutme {
+    width: 90%;
+}
+
+.biography {
+    font-weight: 300;
+}
+
+hr {
+    border: black solid 1px;
+    margin: 100px;
+}
+
+/*----skills----*/
+
+.linkcontainer {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+    border: white solid 1px;
+}
+
+.containerskills {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+strong {
+    font-weight: 600;
+}
+
+li {
+    font-weight: 300;
+}
+
+.hardskills {
+    width: 35%;
+    height: 400px;
+    background-color: #fcd5ce;
+    border-radius: 15px;
+    margin-left: 80px;
+}
+
+.softskills {
+    width: 35%;
+    height: 300px;
+    background-color: #fcd5ce;
+    border-radius: 15px;
+    margin-right: 80px;
+}
+
+.title {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+/*----contact----*/
+
+.cta {
+    text-align: center;
+}
+
+.containersocial {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    width: 60px;
+    height: 60px;
+}
+
+.containercontact {
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.emailbox {
+    width: 50%;
+    height: 440px;
+    background-color: #fcd5ce;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.form-label {
+    font-weight: 200;
+}
+
+.form-control {
+    font-weight: 100;
+}
+
+.submitbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #f8edeb;
+    transition-duration: 0.05s;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #ffb5a7;
+    transition-duration: 0.05s;
+    border: none;
+}
+
+/*----Footer----*/
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #fec89a;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footertext {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+/*----Responsiveness----*/
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+    hr {
+        border: none;
+    }
+    
+    .navbar {
+        height: 75px; 
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+    }
+
+    .fs-4 {
+        text-align: center;
+    }
+
+    .image {
+        width: 30%;
+    }
+
+    .circular {
+        height: 200px;
+    }
+
+    .linkcontainer {
+        height: 650px;
+    }
+
+    .containerskills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hardskills {
+        width: 50%;
+        height: 350px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .softskills {
+        width: 50%;
+        height: 300px;
+        margin-top: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .btn {
+        width: 60%;
+        height: 40%;
+        font-size: small;
+    }
+    
+}
+
+
