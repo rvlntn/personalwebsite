@@ -189,7 +189,7 @@ ul {
     .container {
         display: flex;
         flex-direction: column;
-        height: 650px;
+        height: 700px;
     }
 
     .fs-4 {
