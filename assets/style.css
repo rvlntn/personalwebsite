@@ -1,6 +1,15 @@
+
 * {
     font-family: poppins;
     font-weight: 100;
+}
+
+.navbar {
+    background-color: #fec89a;
+}
+
+.nav-link {
+    font-weight: 200;
 }
 
 /*----about----*/
@@ -30,6 +39,10 @@
 }
 
 .biography {
+    font-weight: 300;
+}
+
+em {
     font-weight: 300;
 }
 
@@ -193,7 +206,9 @@ h3 {
     .navbar-nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-around; 
+        margin-left: 10%;
+        margin-right: 10%;
+
     }
     
     .container {
@@ -214,26 +229,24 @@ h3 {
         height: 200px;
     }
 
-    .linkcontainer {
+    .link-container {
         height: 650px;
     }
 
-    .containerskills {
+    .container-skills {
         display: flex;
         flex-direction: column;
     }
 
-    .hardskills {
+    .hard-skills {
         width: 50%;
-        height: 350px;
         margin-left: 50px;
         margin-right: 50px;
+        margin-bottom: 25px;
     }
-    
-    .softskills {
+
+    .soft-skills {
         width: 50%;
-        height: 300px;
-        margin-top: 25px;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -243,6 +256,11 @@ h3 {
         flex-direction: column;
         justify-items: center;
     }
+
+    .emailbox {
+        width: 75%;
+    }
+    
     .icon {
         height: 40px;
         width: 40px;
